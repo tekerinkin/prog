@@ -5,7 +5,7 @@
 #ifndef C___COMPLEX_H
 #define C___COMPLEX_H
 
-#endif //C___COMPLEX_H
+
 
 class complex
 {
@@ -50,3 +50,4 @@ bool operator != (complex& z1, complex& z2)
 {
     return !(z1 == z2);
 }
+#endif //C___COMPLEX_H
