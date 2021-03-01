@@ -5,7 +5,7 @@
 #ifndef C___TYPELIST_H
 #define C___TYPELIST_H
 
-#endif //C___TYPELIST_H
+
 #include<iostream>
 
 
@@ -164,3 +164,4 @@ struct Append<TypeList<Tl1...>, TypeList<Tl2...>>
 {
     typedef TypeList<Tl1...,Tl2...> type;
 };
+#endif //C___TYPELIST_H
