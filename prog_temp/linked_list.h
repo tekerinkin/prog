@@ -5,7 +5,7 @@
 #ifndef C___LINKED_LIST_H
 #define C___LINKED_LIST_H
 
-#endif //C___LINKED_LIST_H
+
 #include<iostream>
 
 using namespace std;
@@ -88,3 +88,4 @@ void LinkedList::print() {
         ptr = ptr->next;
     }
 }
+#endif //C___LINKED_LIST_H
