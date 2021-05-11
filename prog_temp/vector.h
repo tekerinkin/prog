@@ -5,7 +5,6 @@
 #ifndef C___VECTOR_H
 #define C___VECTOR_H
 
-#endif //C___VECTOR_H
 #include <iostream>
 template<class T>
 class Vector
@@ -93,3 +92,5 @@ public:
     }
 
 };
+
+#endif //C___VECTOR_H
